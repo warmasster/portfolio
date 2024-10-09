@@ -15,7 +15,7 @@
             <Github size=20 />
         </span>
         <span class="flex items-center gap-2 px-4 py-2 text-black bg-gray-100 rounded-lg shadow-md">
-            <a target="_blank" href="https://github.com/warmasster">Linkedin</a>
+            <a target="_blank" href="www.linkedin.com/in/fernando-hernandez-019310312">Linkedin</a>
             <Linkedin size=20 />
         </span>
     </div>
