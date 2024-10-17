@@ -7,9 +7,15 @@
         <p>Fernando Hernández</p>
     </div>
     <div class="flex justify-between gap-8 sm:gap-14">
-        <button on:click={() => window.scrollTo({top:100, left:0, behavior:"smooth"})}>Contacto</button>
-        <button>Proyectos</button>
-        <button>Habilidades</button>
+        <button class="transition-all hover:scale-105" 
+        on:click={() => document.querySelector(".contacto").scrollIntoView({behavior:"smooth"})}
+        >Contacto</button>
+        <button class="transition-all hover:scale-105"
+        on:click={() => document.querySelector(".experiencia").scrollIntoView({behavior:"smooth"})}
+        >Proyectos</button>
+        <button class="transition-all hover:scale-105"
+        on:click={() => document.querySelector(".habilidades").scrollIntoView({behavior:"smooth"})}
+        >Habilidades</button>
     </div>
 </div>
 <slot />
