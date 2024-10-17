@@ -6,6 +6,7 @@
         import Firebase from "svelte-material-icons/Firebase.svelte"
         import Tailwind from "svelte-material-icons/Tailwind.svelte"
         import LanguageJava from "svelte-material-icons/LanguageJava.svelte"
+        import LanguageKotlin from "svelte-material-icons/LanguageKotlin.svelte"
         
 </script>
 
@@ -13,7 +14,7 @@
     <h1 class="pb-8 text-3xl font-bold">
         Habilidades
     </h1>
-    <div class="grid grid-cols-3 gap-y-12 gap-x-56">
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-y-12 sm:gap-x-56 gap-x-24">
         <div class="flex flex-col items-center">
             <LanguageHtml5 size=90 />
             <p class="font-extrabold">HTML5</p>
@@ -48,6 +49,10 @@
         <div class="flex flex-col items-center">
             <LanguageJava size=90 />
             <p class="font-extrabold">Java</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <LanguageKotlin size=90 />
+            <p class="font-extrabold">Kotlin</p>
         </div>
     </div>
 </section>
