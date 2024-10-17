@@ -1,3 +1,4 @@
+<!--
 <script>
     import { browser } from "$app/environment";   
     export let data;
@@ -40,8 +41,18 @@
     </div>
     <div>
         <input bind:value={currentmessage} type="text">
-        <!-- svelte-ignore missing-declaration -->
         <button on:click={send(currentmessage)}>Hola</button>
     </div>
 </div>
+-->
+<script>
+    import ArrowLeft from "svelte-material-icons/ArrowLeft.svelte"
+</script>
 
+<div class="flex flex-col items-center justify-center h-[90vh]">
+    <p class="text-4xl">El chat se encuentra en desarrollo</p>
+    <span class="flex items-center">
+        <ArrowLeft/>
+        <a href="/" class="flex items-baseline justify-end">Volver al portfolio </a>
+    </span>
+</div>
