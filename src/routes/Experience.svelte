@@ -15,14 +15,14 @@
             from: "Junio de 2024",
             to: "la Actualidad",
             WorkType:"Freelance",
-            Role:"Frontend Developer",
+            Role:"Full-Stack Developer",
             description: "Tras las practicas de Formacion Profesial como desarrollador frontend en el en Lapizarrablanca se me contrató como freelance en otro proyecto, eotdl, una herramienta para la ESA cuya funcion es la de un laboratorio de IA en el sector de \"Earth Observation\""
         },
     ]
     let proyectos = [
         {
             name: "IPyChat",
-            description: "Chat por IP programado enteramente en python, permite mediante una sencialle e intuitiva interfaz de usuario la conexion entre dos equipos para el envio de mensajes."
+            description: "Chat por IP programado unicamente en python, permite mediante una intuitiva interfaz de usuario la conexion entre dos equipos para el envio de mensajes."
         },
         {
             name: "Colors to grayscale",
@@ -30,7 +30,7 @@
         },
         {
             name: "Nouser",
-            description: "Red social anonima y sin usuarios, te permite subir imagenes y/o texto para compartirlas con el mundo, facil e intuitiva."
+            description: "Red social anonima y sin usuarios, te permite subir imagenes y/o texto para compartirlas con el mundo."
         },
         {
             name: "Divapp",

@@ -14,7 +14,7 @@
     <h1 class="pb-8 text-3xl font-bold">
         Habilidades
     </h1>
-    <div class="grid grid-cols-2 sm:grid-cols-3 gap-y-12 sm:gap-x-56 gap-x-24">
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-y-12 sm:gap-x-64 gap-x-24">
         <div class="flex flex-col items-center">
             <LanguageHtml5 size=90 />
             <p class="font-extrabold">HTML5</p>
@@ -50,7 +50,7 @@
             <LanguageJava size=90 />
             <p class="font-extrabold">Java</p>
         </div>
-        <div class="flex flex-col items-center">
+        <div class="flex flex-col items-center col-span-2 sm:col-span-1">
             <LanguageKotlin size=90 />
             <p class="font-extrabold">Kotlin</p>
         </div>
