@@ -7,7 +7,7 @@
             to: "Junio de 2024",
             WorkType:"Estudiante en practicas",
             Role:"Frontend Developer",
-            description: "Practicas de Formacion Profesional como desarrollador frontend en el proyecto \"TheJobRanker\" de la empresa Lapizarrablanca "
+            description: "Practicas de Formacion Profesional como desarrollador frontend en el proyecto \"TheJobRanker\" para el filtrado de CVs mediante IA, es un servicio de la empresa Lapizarrablanca"
         },
         {
             name: "Earthpulse",
@@ -39,7 +39,7 @@
     ]
 </script>
 
-<section class="flex flex-col items-center p-4 experiencia">
+<section class="flex flex-col items-center pb-4 experiencia">
     <h1 class="pb-4 text-3xl font-bold">
         Experiencia
     </h1>
