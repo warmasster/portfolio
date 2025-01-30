@@ -14,7 +14,7 @@
     <h1 class="pb-8 text-3xl font-bold">
         Habilidades
     </h1>
-    <div class="grid grid-cols-2 sm:grid-cols-3 gap-y-12 sm:gap-x-64 gap-x-24">
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-y-16 sm:gap-x-96 gap-x-24">
         <div class="flex flex-col items-center">
             <LanguageHtml5 size=90 />
             <p class="font-extrabold">HTML5</p>
