@@ -1,5 +1,5 @@
 <script>
-    import "../app.css";
+    import "../../app.css";
     import { browser } from "$app/environment";
     
 </script>
@@ -15,7 +15,7 @@
         <button class="transition-all hover:scale-105"
         on:click={() => document.querySelector(".habilidades").scrollIntoView({behavior:"smooth"})}
         >Habilidades</button>
-        <button class="transition-all hover:scale-105" 
+        <button class="transition-all hover:scale-105" ºº
         on:click={() => document.querySelector(".contacto").scrollIntoView({behavior:"smooth"})}
         >Contacto</button>
     </div>
