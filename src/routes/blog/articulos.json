@@ -1,15 +1,24 @@
 {
+    "hola": {
+        "ref":"hola",
+        "Titulo":"Particiones en windows y ubuntu",
+        "Descripcion":"En este articulo veremos como hacer particiones tanto en linux como ubuntu",
+        "img":"../../../static/favicon.png"
+    },
     "Particiones": {
+        "ref":"particiones-windows-linux",
         "Titulo":"Particiones en windows y ubuntu",
         "Descripcion":"En este articulo veremos como hacer particiones tanto en linux como ubuntu",
         "img":"../../../static/favicon.png"
     },
     "Casa": {
+        "ref":"hola",
         "Titulo":"Antivirus avast",
         "Descripcion":"En este articulo veremos como hacer particiones tanto en linux como ubuntu",
         "img":"../../../static/favicon.png"
     },
     "arboles": {
+        "ref":"hola",
         "Titulo":"Virtual box",
         "Descripcion":"En este articulo veremos como hacer particiones tanto en linux como ubuntu",
         "img":"../../../static/favicon.png"

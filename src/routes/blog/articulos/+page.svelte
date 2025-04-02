@@ -26,14 +26,16 @@
 <div class="grid grid-cols-2 items-center justify-center align-middle gap-10 m-10">
   {#each Object.values(articulos) as articulo}
     {#if articulo.Titulo.toLowerCase().includes(search.toLowerCase()) || search===""}
-      <div class="px-4 py-3 w-[100%] h-60 shadow-[0px_0px_30px_6px_#00000024] bg-slate-50 rounded-2xl">
-        <div class="h-[90%] text-xl">
-          <p>{articulo.Titulo}</p>
+      <a href='/blog/articulos/{articulo.ref}'>
+        <div class="px-4 py-3 w-[100%] h-60 shadow-[0px_0px_30px_6px_#00000024] bg-slate-50 rounded-2xl">
+          <div class="h-[90%] text-xl">
+            <p>{articulo.Titulo}</p>
+          </div>
+          <div class="h-[90%]">
+  
+          </div>
         </div>
-        <div class="h-[90%]">
-
-        </div>
-      </div>
+      </a>
     {/if}
   {/each}
 </div>
