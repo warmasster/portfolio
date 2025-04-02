@@ -22,7 +22,9 @@
 	"dependencies": {
 		"@sveltejs/adapter-static": "^3.0.5",
 		"markdown-to-html": "^0.0.13",
+		"marked": "^15.0.7",
 		"showdown": "^2.1.0",
+		"svelte-markdown": "^0.4.1",
 		"svelte-material-icons": "^3.0.5"
 	}
 }

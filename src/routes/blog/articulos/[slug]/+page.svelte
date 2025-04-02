@@ -1,15 +1,29 @@
 <script>
-    import showdown from 'showdown';
-    import { page } from '$app/stores';
-    let md = import("../hola.md")
-
-    $: console.log(md) 
-	let converter = new showdown.Converter();
-
-	let valueAsHtml;
-
-	// $: valueAsHtml = converter.makeHtml("md");
-    $: console.log($page.params.slug)
+  import { onMount } from 'svelte';
+  import SvelteMarkdown from 'svelte-markdown'
+  import { page } from '$app/stores';
+  import { marked } from 'marked';
+  let markdownContent = ""
+  onMount(async () => {
+      try {
+          // Usamos fetch para cargar el archivo Markdown
+          const response = await fetch(`/arts/${$page.params.slug}.md`);
+          console.log(response)
+          if (response.ok) {
+        markdownContent = await response.text();
+      } else {
+        markdownContent = 'Archivo no encontrado';
+    }
+    } catch (error) {
+      markdownContent = 'Error al cargar el archivo';
+    }
+    document.getElementById('content').innerHTML = marked.parse(markdownContent)
+    console.log(markdownContent)
+});
 </script>
-{$page.params.slug}
-{@html valueAsHtml}	
+
+{#if markdownContent}
+{:else}
+<p>Cargando...</p>
+{/if}
+<div id="content"></div>
