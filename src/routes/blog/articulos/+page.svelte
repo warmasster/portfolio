@@ -15,7 +15,7 @@
     <p class="w-[60%] mt-6 text-center">Busca a continuacion los articulos que te interesan</p>
   </div>
   <div class="flex justify-center items-center">
-    <div class="m-8 items-center justify-center w-[30%] focus-within:border-black bg-gray-100 flex px-4 py-1 border-gray-800 border-2  rounded-full focus:text-black text-gray-800">
+    <div class="m-8 items-center justify-center w-[30%] focus-within:border-black bg-gray-100 flex px-4 py-1 border-gray-500 border-2 focus:placeholder-slate-800  rounded-full focus:text-black text-gray-500">
       <input class="focus:outline-none w-[90%] focus:text-black bg-gray-100" on:keypress={() => checksearch(search)} bind:value={search} placeholder="Escribe que articulo quieres buscar" type="text">
       <Magnify class="w-[10%]"/>
     </div>
