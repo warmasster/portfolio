@@ -15,9 +15,6 @@
         <button class="transition-all hover:scale-105"
         on:click={() => goto("/blog/articulos")}
         >Articulos</button>
-        <button class="transition-all hover:scale-105" ºº
-        on:click={() => goto("/blog/contacto")}
-        >Contacto</button>
     </div>
 </div>
 <slot />
