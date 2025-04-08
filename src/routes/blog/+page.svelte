@@ -18,7 +18,7 @@
 </div>
 
 <div class="flex items-center justify-center">
-  <div class="grid md:grid-cols-2 grid-cols-1 lg:w-[60%] items-center justify-center align-middle gap-10 lg:mx-[22%] xl:mx-[30%] m-10">
+  <div class="grid md:grid-cols-2 grid-cols-1 lg:w-[60%] items-center justify-center align-middle gap-10 lg:mx-[22%] xl:mx-[27%] md:mx-0 m-10">
     <div class="px-4 py-3 w-[100%] sm:h-52 h-36 shadow-[0px_0px_30px_6px_#00000024] bg-slate-50 rounded-2xl">
       <div  class="flex flex-col justify-center items-center">
         <p class="text-2xl font-semibold text-center">Articulo destacado</p>

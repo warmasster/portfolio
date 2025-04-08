@@ -1,4 +1,10 @@
 {
+    "chipsapple": {
+        "ref":"chipsapple",
+        "Titulo":"Los nuevos chips de apple",
+        "Descripcion":"En este articulo veremos los nuevos procesadores de apple M4 PRO y M4 MAX",
+        "img":"../../../static/favicon.png"
+    },
     "hola": {
         "ref":"hola",
         "Titulo":"Particiones en windows y ubuntu",

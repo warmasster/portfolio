@@ -25,7 +25,7 @@
 <p>Cargando...</p>
 {/if}
 <div class="flex justify-center mt-12">
-  <div class="w-[80%] flex mx-12 text-justify justify-center">
+  <div class="md:w-[60%] w-[80%] flex mx-12 text-justify justify-center">
       <div id="markdown-container" ></div>
   </div>
 </div>
