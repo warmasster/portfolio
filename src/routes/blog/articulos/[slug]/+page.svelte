@@ -24,8 +24,8 @@
 {:else}
 <p>Cargando...</p>
 {/if}
-<div class="flex justify-center mt-12">
-  <div class="md:w-[60%] w-[80%] flex mx-12 text-justify justify-center">
+<div class="flex justify-center mt-12 my-20">
+  <div class="md:w-[40%] w-[90%] flex mx-12 text-justify justify-center">
       <div id="markdown-container" ></div>
   </div>
 </div>
@@ -38,7 +38,10 @@
 
   /* Use :global with the ID selector */
   :global(#markdown-container h1) {
-    @apply text-4xl font-bold my-6;
+    @apply text-4xl font-bold my-6 text-center;
+  }
+  :global(#markdown-container pre) {
+    @apply text-white bg-slate-700 rounded-xl w-fit p-6 my-4;
   }
 
   :global(#markdown-container h2) {
@@ -52,6 +55,9 @@
   :global(#markdown-container ul) {
     @apply list-disc pl-6;
   }
+  :global(#markdown-container ol) {
+    @apply list-disc pl-6;
+  }
 
   :global(#markdown-container li) {
     @apply text-gray-800 mb-2 list-decimal;
@@ -59,5 +65,11 @@
 
   :global(#markdown-container strong) {
     @apply font-bold text-black;
+  }
+  :global(#markdown-container th) {
+    @apply p-1 border-2;
+  }
+  :global(#markdown-container td) {
+    @apply p-1 border-2;
   }
 </style>

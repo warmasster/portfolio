@@ -3,8 +3,11 @@
   import Linkedin from "svelte-material-icons/Linkedin.svelte"
   import ArrowRigth from "svelte-material-icons/ArrowRight.svelte"
   import articulos from "./articulos.json"
-  let maxnum =  Math.floor(Math.random() * Object.keys(articulos).length);
-  let randomArt = articulos[Object.keys(articulos)[maxnum]]
+
+  const makerand = () => {
+    let maxnum =  Math.floor(Math.random() * Object.keys(articulos).length);
+    return articulos[Object.keys(articulos)[maxnum]]
+  }
   let maxTitleLen = 20
 
 </script>
@@ -21,10 +24,18 @@
   <div class="grid md:grid-cols-2 grid-cols-1 lg:w-[60%] items-center justify-center align-middle gap-10 lg:mx-[22%] xl:mx-[27%] md:mx-0 m-10">
     <div class="px-4 py-3 w-[100%] sm:h-52 h-36 shadow-[0px_0px_30px_6px_#00000024] bg-slate-50 rounded-2xl">
       <div  class="flex flex-col justify-center items-center">
-        <p class="text-2xl font-semibold text-center">Articulo destacado</p>
-        <div class="flex w-[100%] items-center justify-center gap-6 my-5">
+        <p class="text-2xl font-semibold text-center">Articulos</p>
+        <div class="flex flex-col w-[100%] items-center justify-center gap-2 my-2">
           <span class="flex items-center justify-center p-2 w-[100%] text-black transition-all bg-gray-100 rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:scale-105">
-              <a href='blog/articulos/{randomArt.ref}'>{randomArt.Titulo.slice(0,maxTitleLen)}{randomArt.Titulo.length > maxTitleLen ? "..." : ""}</a>
+              <a href='blog/articulos'><strong>Todos los articulos</strong></a>
+              <ArrowRigth class="ml-4"/>  
+          </span>
+          <span class="flex items-center justify-center p-2 w-[100%] text-black transition-all bg-gray-100 rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:scale-105">
+              <a href='blog/articulos/{makerand().ref}'>{makerand().Titulo.slice(0,maxTitleLen)}{makerand().Titulo.length > maxTitleLen ? "..." : ""}</a>
+              <ArrowRigth class="ml-4"/>  
+          </span>
+          <span class="flex items-center justify-center p-2 w-[100%] text-black transition-all bg-gray-100 rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:scale-105">
+              <a href='blog/articulos/{makerand().ref}'>{makerand().Titulo.slice(0,maxTitleLen)}{makerand().Titulo.length > maxTitleLen ? "..." : ""}</a>
               <ArrowRigth class="ml-4"/>  
           </span>
         </div>

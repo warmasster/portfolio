@@ -1,24 +1,38 @@
-# Los nuevos chips de apple
+# Chips Apple M4
 
-Antes que nada tengamos en cuenta que previamente apple uso procesadores de intel y que la la serie de procesadores "M" es bastante nueva habiendo salido en __2021__ 
+## Introducción
 
-## Los nuevos M4
+Apple ha renovado su línea de procesadores con el lanzamiento de los chips **M4 Pro y M4 Max**. Estos SoC (System on a Chip) continúan la transición iniciada con los M1, diseñados con arquitectura ARM, y orientados a ofrecer el máximo rendimiento con bajo consumo energético. 
 
-Los nuevos procesadores de mac son los M4 unos procesadores muy capaces, como no fabricados por la enorme empresa taiwanesa TSMC, tienen una arquitectura de 3 nanometros igual que el M3
+Los M4 destacan por incluir mejoras importantes en potencia bruta, procesamiento gráfico y capacidades para inteligencia artificial.
 
-## Pequeña comparacion
+## ¿Qué ofrecen los nuevos chips M4?
 
-A continuacion vamos a usar una tabla para comparar los anteriores procesadores de apple con el nuevo M4
+- **CPU de alto rendimiento:** núcleos de rendimiento y eficiencia mejorados.
+- **GPU más potente:** ideal para tareas gráficas pesadas.
+- **Motor Neural avanzado:** optimizado para IA, Machine Learning y procesos en segundo plano.
+- **RAM unificada:** hasta 128 GB compartidos entre CPU y GPU, lo que mejora la velocidad.
+- **Consumo reducido:** ideal para portátiles sin sacrificar potencia.
 
-|<!-- -->|  Nanometros | Nucleos | Nucleos IA | Nucleos graficos |
-|--------:|:-------:|:-:|:-:|:-:|
-|M4 MAX| 3nm | 12E+4P | 16 | 40 |
-|M4 PRO| 3nm | 10E+4P | 16 | 20 |
-|M4    | 3nm | 4E+6P  | 16 | 10 |
-|M3    | 3nm | 4E+4P  | 16 | 10 |
+## ¿Valen la pena?
 
-Como podemos ver la __principal diferencia__ entre las diferentes gamas de M4 y el M3 son los __nucleos de la CPU__ y los __nucleos graficos__ (GPU)
+Depende del usuario. Para profesionales del vídeo, fotografía, desarrollo de software o diseño gráfico, sí. Los M4 ofrecen un rendimiento sin igual dentro del ecosistema Apple. Sin embargo, para uso cotidiano (ofimática, navegación, contenido multimedia), chips anteriores como el M1 o M2 siguen siendo muy eficientes y más económicos.
 
-## Contrapartes
+Los usuarios más técnicos también valorarán el soporte de hardware específico para IA, lo que lo convierte en una inversión a largo plazo.
 
-La principal contraparte es el precio que tienen las plataformas en las cuales se encuentran los potentes chips M4, los Mac, que son maquinas muy caras. 
+## ¿Se pueden usar fuera de Apple?
+
+No. Los chips M4 están integrados directamente en los dispositivos Apple y no se venden de forma separada. Tampoco son compatibles con otros sistemas operativos como Windows o Linux. No existe forma oficial de montar un chip Apple M4 en un equipo que no sea de la marca.
+
+Esto se debe a que todo el sistema está diseñado en conjunto: chip, sistema operativo y hardware trabajan como una unidad cerrada.
+
+## Principales ventajas
+
+- Silencioso y sin ventiladores en muchos modelos.
+- Optimizado para software profesional de Apple (Final Cut, Logic Pro, Xcode).
+- Gran autonomía en portátiles.
+- Mejora en seguridad a nivel de hardware.
+
+## Conclusión
+
+Los M4 Pro y Max son una opción excelente para usuarios del ecosistema Apple que requieran alta potencia y eficiencia. No están pensados para usarse fuera del entorno macOS, pero dentro de él, ofrecen una experiencia sin competencia.

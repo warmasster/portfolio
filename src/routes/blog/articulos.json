@@ -1,32 +1,38 @@
 {
+    "particionesdisco": {
+        "ref": "particionesdisco",
+        "Titulo": "Particiones de disco",
+        "Descripcion": "Guía para crear particiones en discos.",
+        "img": "../../../static/favicon.png"
+    },
+    "herramientaspiriform": {
+        "ref": "herramientaspiriform",
+        "Titulo": "Herramientas Piriform",
+        "Descripcion": "Tutoriales y alternativas a CCleaner, Recuva, etc.",
+        "img": "../../../static/favicon.png"
+    },
+    "analisissoftwareequipos": {
+        "ref": "analisissoftwareequipos",
+        "Titulo": "Análisis de equipos",
+        "Descripcion": "Comparativa de software de diagnóstico.",
+        "img": "../../../static/favicon.png"
+    },
+    "dejadup": {
+        "ref": "dejadup",
+        "Titulo": "Backup con Déjà Dup",
+        "Descripcion": "Cómo hacer copias en Ubuntu.",
+        "img": "../../../static/favicon.png"
+    },
     "chipsapple": {
-        "ref":"chipsapple",
-        "Titulo":"Los nuevos chips de apple",
-        "Descripcion":"En este articulo veremos los nuevos procesadores de apple M4 PRO y M4 MAX",
-        "img":"../../../static/favicon.png"
+        "ref": "chipsapple",
+        "Titulo": "Chips Apple M4",
+        "Descripcion": "¿Valen la pena? ¿Sirven fuera de Apple?",
+        "img": "../../../static/favicon.png"
     },
-    "hola": {
-        "ref":"hola",
-        "Titulo":"Particiones en windows y ubuntu",
-        "Descripcion":"En este articulo veremos como hacer particiones tanto en linux como ubuntu",
-        "img":"../../../static/favicon.png"
-    },
-    "Particiones": {
-        "ref":"particiones-windows-linux",
-        "Titulo":"Particiones en windows y ubuntu",
-        "Descripcion":"En este articulo veremos como hacer particiones tanto en linux como ubuntu",
-        "img":"../../../static/favicon.png"
-    },
-    "Casa": {
-        "ref":"hola",
-        "Titulo":"Antivirus avast",
-        "Descripcion":"En este articulo veremos como hacer particiones tanto en linux como ubuntu",
-        "img":"../../../static/favicon.png"
-    },
-    "arboles": {
-        "ref":"hola",
-        "Titulo":"Virtual box",
-        "Descripcion":"En este articulo veremos como hacer particiones tanto en linux como ubuntu",
-        "img":"../../../static/favicon.png"
+    "soportesbackup": {
+        "ref": "soportesbackup",
+        "Titulo": "Soportes de backup",
+        "Descripcion": "Comparativa de medios de copia.",
+        "img": "../../../static/favicon.png"
     }
 }

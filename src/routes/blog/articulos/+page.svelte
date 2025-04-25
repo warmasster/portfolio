@@ -20,7 +20,7 @@
 </div>
 
 <div class="flex items-center justify-center">
-  <div class="grid md:grid-cols-2 grid-cols-1 lg:w-[60%] w-[80%] items-center justify-center align-middle gap-10 lg:mx-[22%] xl:mx-[30%] m-10">
+  <div class="grid md:grid-cols-2 grid-cols-1 lg:w-[60%] w-[80%] items-center justify-center align-middle gap-10 lg:mx-[22%] xl:mx-[30%] m-10 min-h-screen">
     {#each Object.values(articulos) as articulo}
       {#if articulo.Titulo.toLowerCase().includes(search.toLowerCase()) || search===""}
         <a href='/blog/articulos/{articulo.ref}'>
