@@ -7,7 +7,8 @@
         import Tailwind from "svelte-material-icons/Tailwind.svelte"
         import LanguageJava from "svelte-material-icons/LanguageJava.svelte"
         import LanguageKotlin from "svelte-material-icons/LanguageKotlin.svelte"
-        
+        import Vuejs from "svelte-material-icons/Vuejs.svelte"
+        import Bootstrap from "svelte-material-icons/Bootstrap.svelte"
 </script>
 
 <section class="flex flex-col items-center p-4 habilidades">
@@ -28,10 +29,6 @@
             <p class="font-extrabold">CSS</p>
         </div>
         <div class="flex flex-col items-center">
-            <Firebase size=90 />
-            <p class="font-extrabold">Firebase</p>
-        </div>
-        <div class="flex flex-col items-center">
             <LanguagePython size=90 />
             <p class="font-extrabold">Python</p>
         </div>
@@ -47,10 +44,22 @@
             <p class="font-extrabold">Sveltekit</p>
         </div>
         <div class="flex flex-col items-center">
+            <Firebase size=90 />
+            <p class="font-extrabold">Firebase</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <Vuejs size=90 />
+            <p class="font-extrabold">Vue.js</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <Bootstrap size=90 />
+            <p class="font-extrabold">Bootstrap</p>
+        </div>
+        <div class="flex flex-col items-center">
             <LanguageJava size=90 />
             <p class="font-extrabold">Java</p>
         </div>
-        <div class="flex flex-col items-center col-span-2 sm:col-span-1">
+        <div class="flex flex-col items-center">
             <LanguageKotlin size=90 />
             <p class="font-extrabold">Kotlin</p>
         </div>
