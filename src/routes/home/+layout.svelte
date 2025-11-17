@@ -4,7 +4,7 @@
     
 </script>
 
-<div class="flex items-center justify-center h-12 px-12 py-4 font-bold transition-all duration-200 shadow-sm sm:justify-between text-xlf">
+<div class="flex items-center justify-center h-12 px-12 py-4 font-bold transition-all duration-200 shadow-sm sm:justify-between text-md">
     <div class="hidden sm:flex">
         <p>Fernando Hernández</p>
     </div>
@@ -21,7 +21,7 @@
     </div>
 </div>
 <slot />
-<section class="contacto flex flex-col font-semibold text-lg items-center justify-center w-full bg-black h-[150px] p-4">
-    <p class="text-white">fernandohmdev@gmail.com</p>
-    <p class="text-white">688 68 50 40</p>
+<section class="contacto flex flex-col font-semibold text-lg items-center justify-center w-full bg-white border-t shadow-sm  h-[100px] p-4">
+    <p class="text-black">fernandohmdev@gmail.com</p>
+    <p class="text-black">688 68 50 40</p>
 </section>

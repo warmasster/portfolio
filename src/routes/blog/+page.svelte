@@ -26,18 +26,16 @@
       <div  class="flex flex-col justify-center items-center">
         <p class="text-2xl font-semibold text-center">Articulos</p>
         <div class="flex flex-col w-[100%] items-center justify-center gap-2 my-2">
-          <span class="flex items-center justify-center p-2 w-[100%] text-black transition-all bg-gray-100 rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:scale-105">
-              <a href='blog/articulos'><strong>Todos los articulos</strong></a>
+          <a  href='blog/articulos' class="flex items-center justify-center p-2 w-[100%] text-black transition-all bg-gray-100 rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:scale-105">
+              <p><strong>Todos los articulos</strong></p>
               <ArrowRigth class="ml-4"/>  
-          </span>
-          <span class="flex items-center justify-center p-2 w-[100%] text-black transition-all bg-gray-100 rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:scale-105">
-              <a href='blog/articulos/{makerand().ref}'>{makerand().Titulo.slice(0,maxTitleLen)}{makerand().Titulo.length > maxTitleLen ? "..." : ""}</a>
-              <ArrowRigth class="ml-4"/>  
-          </span>
-          <span class="flex items-center justify-center p-2 w-[100%] text-black transition-all bg-gray-100 rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:scale-105">
-              <a href='blog/articulos/{makerand().ref}'>{makerand().Titulo.slice(0,maxTitleLen)}{makerand().Titulo.length > maxTitleLen ? "..." : ""}</a>
-              <ArrowRigth class="ml-4"/>  
-          </span>
+          </a>
+          {#each [1,2] as i} <!-- Dos articulos aleatorios -->
+            <a href='blog/articulos/{makerand().ref}' class="flex items-center justify-center p-2 w-[100%] text-black transition-all bg-gray-100 rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:scale-105">
+                <p>{makerand().Titulo.slice(0,maxTitleLen)}{makerand().Titulo.length > maxTitleLen ? "..." : ""}</p>
+                <ArrowRigth class="ml-4"/>  
+            </a>
+          {/each}
         </div>
       </div>
     </div>
