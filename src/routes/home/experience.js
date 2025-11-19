@@ -24,7 +24,7 @@ let experiences = [
         to: "la Actualidad",
         WorkType: "Freelance",
         Role: "Frontend Developer",
-        description: "Tras las prácticas de Formación Profesional como desarrollador frontend en Wisclic, se me contrató como freelance para multiples desarrollos de webs y otro tipo de implementaciones en multiples proyectos de ambitos variados y usando multiples tecnologias."
+        description: "Tras las prácticas de Formación Profesional como desarrollador frontend en Wisclic, se me contrató como freelance para diversos desarrollos web y otro tipo de implementaciones en múltiples proyectos de ámbitos variados y usando distintas tecnologías."
     },
 ]
 let proyectos = [
