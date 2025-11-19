@@ -23,7 +23,7 @@
     </h1>
     <div class="grid grid-cols-1 gap-6 justify-items-center sm:grid-cols-2 text-justify">
         {#each proyectos as proyecto, i}
-        <div class=" w-[95%] px-3 shadow-lg bg-gray-100 rounded-2xl {i == proyectos.length - 1 && proyectos.length % 2 != 0 && 'col-span-2'}">
+        <div class=" w-[100%] px-3 shadow-lg bg-gray-100 rounded-2xl {i == proyectos.length - 1 && proyectos.length % 2 != 0 && 'col-span-2'}">
             <h1 class="mt-4 mx-2 text-2xl font-semibold">{proyecto.name}</h1>
             <p class="mb-4 mx-2 text-md text-slate-700">{proyecto.description}</p>
         </div>    
